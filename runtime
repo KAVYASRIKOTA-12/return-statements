@@ -1,0 +1,109 @@
+#print vs return
+'''def add(a,b):
+    print(a+b)
+add(4,5)'''
+
+'''def add(a,b):
+    return(a+b)
+print(add(2,3))'''
+
+'''def add(a,b):
+    c=a+b
+    d=a-b
+    e=a*b
+    print(c)
+    print(d)
+    print(e)
+add(4,5)'''
+
+'''def add(a,b):
+    c=a+b
+    d=a-b
+    e=a*b
+    #return c
+    #return d
+    #return e
+    return c,d,e
+print(add(2,4))'''
+
+#keyword and positional arguments
+'''def Details(id,name,mailid):
+    id=10
+    name="kavya"
+    mailid="kavya@gamil.com"
+    print(id,name,mailid)
+Details(id="id",name="kavya",mailid="kavya@gamil.com")'''
+
+'''def Details(id,name,mailid):
+    print(id,name,mailid)
+Details(id="id",name="name",mailid="mailid")
+Details(id=20,name="kavya",mailid="kavya@gmail.com")
+Details(id=30,name="harika",mailid="h@gmail.com")'''
+
+'''def Details(id,name,mailid):
+    print(id,name,mailid)
+Details(40,"nidhi","n@gmail.com")'''
+
+'''def Details(id,name,mailid):
+    print(id,name,mailid)
+Details("nidhi","n@gmail.com",40)'''
+
+'''def Details(id,name,mailid):
+    print(id,name,mailid)
+Details(mailid="k@gmail.com",name="kavya",id=20)'''
+
+#swapping of two variables
+'''a=10
+b=20
+a,b=b,a
+print(a)
+print(b)'''
+
+'''def values(a,b):
+    print(b,a)
+values(10,20)'''
+
+'''a=10
+b=20
+temp=a
+a=b
+b=temp
+print(a)
+print(b)'''
+
+'''a=10
+b=20
+a=a+b
+b=a-b
+a=a-b
+print(a)
+print(b)'''
+
+'''a=10
+b=20
+a=a+b
+b=a-b
+a=a-b
+print("after swapping a=%d,b=%d" %(a,b))'''
+
+#default arguments
+'''def Grocery(item,price):
+    print("item is %s" %item)
+    print("price is %f" %price)
+Grocery("sugar",100)'''
+
+'''def Grocery(item="rice",price=1500):
+    print("item is %s" %item)
+    print("price is %f" %price)
+Grocery()'''
+
+'''def Grocery(item,price=200):
+    print("item is %s" %item)
+    print("price is %f" %price)
+Grocery("dhal")'''
+
+'''def Grocery(item="milk",price):
+    #non def arg follows def arg
+    print("item is %s" %item)
+    print("price is %f" %price)
+Grocery(100)'''

@@ -1,22 +1,26 @@
 #print vs return
-'''def add(a,b):
+#ex 1
+def add(a,b):
     print(a+b)
-add(4,5)'''
+add(4,5)
 
-'''def add(a,b):
+#ex 2
+def add(a,b):
     return(a+b)
-print(add(2,3))'''
+print(add(2,3))
 
-'''def add(a,b):
+#ex 3
+def add(a,b):
     c=a+b
     d=a-b
     e=a*b
     print(c)
     print(d)
     print(e)
-add(4,5)'''
+add(4,5)
 
-'''def add(a,b):
+#ex 4
+def add(a,b):
     c=a+b
     d=a-b
     e=a*b
@@ -24,86 +28,100 @@ add(4,5)'''
     #return d
     #return e
     return c,d,e
-print(add(2,4))'''
+print(add(2,4))
 
 #keyword and positional arguments
-'''def Details(id,name,mailid):
+#ex 1
+def Details(id,name,mailid):
     id=10
     name="kavya"
     mailid="kavya@gamil.com"
     print(id,name,mailid)
-Details(id="id",name="kavya",mailid="kavya@gamil.com")'''
+Details(id="id",name="kavya",mailid="kavya@gamil.com")
 
-'''def Details(id,name,mailid):
+#ex 2
+def Details(id,name,mailid):
     print(id,name,mailid)
 Details(id="id",name="name",mailid="mailid")
 Details(id=20,name="kavya",mailid="kavya@gmail.com")
-Details(id=30,name="harika",mailid="h@gmail.com")'''
+Details(id=30,name="harika",mailid="h@gmail.com")
 
-'''def Details(id,name,mailid):
+#ex 3
+def Details(id,name,mailid):
     print(id,name,mailid)
-Details(40,"nidhi","n@gmail.com")'''
+Details(40,"nidhi","n@gmail.com")
 
-'''def Details(id,name,mailid):
+#ex 4
+def Details(id,name,mailid):
     print(id,name,mailid)
-Details("nidhi","n@gmail.com",40)'''
+Details("nidhi","n@gmail.com",40)
 
-'''def Details(id,name,mailid):
+#ex 5
+def Details(id,name,mailid):
     print(id,name,mailid)
-Details(mailid="k@gmail.com",name="kavya",id=20)'''
+Details(mailid="k@gmail.com",name="kavya",id=20)
 
 #swapping of two variables
-'''a=10
+#method 1
+a=10
 b=20
 a,b=b,a
 print(a)
-print(b)'''
+print(b)
 
-'''def values(a,b):
+#method 2
+def values(a,b):
     print(b,a)
-values(10,20)'''
+values(10,20)
 
-'''a=10
+#method 3
+a=10
 b=20
 temp=a
 a=b
 b=temp
 print(a)
-print(b)'''
+print(b)
 
-'''a=10
+#method 4
+a=10
 b=20
 a=a+b
 b=a-b
 a=a-b
 print(a)
-print(b)'''
+print(b)
 
-'''a=10
+#method 5
+a=10
 b=20
 a=a+b
 b=a-b
 a=a-b
-print("after swapping a=%d,b=%d" %(a,b))'''
+print("after swapping a=%d,b=%d" %(a,b))
 
 #default arguments
-'''def Grocery(item,price):
+#ex 1
+def Grocery(item,price):
     print("item is %s" %item)
     print("price is %f" %price)
-Grocery("sugar",100)'''
+Grocery("sugar",100)
 
-'''def Grocery(item="rice",price=1500):
+#ex 2
+def Grocery(item="rice",price=1500):
     print("item is %s" %item)
     print("price is %f" %price)
-Grocery()'''
+Grocery()
 
-'''def Grocery(item,price=200):
+#ex 3
+def Grocery(item,price=200):
     print("item is %s" %item)
     print("price is %f" %price)
-Grocery("dhal")'''
+Grocery("dhal")
 
-'''def Grocery(item="milk",price):
+#ex 4
+def Grocery(item="milk",price):
     #non def arg follows def arg
     print("item is %s" %item)
     print("price is %f" %price)
-Grocery(100)'''
+Grocery(100)
